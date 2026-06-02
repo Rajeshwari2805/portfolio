@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Rajeshwari Gajendran is a Full Stack Developer who builds robust, scalable web applications."/>
+  <title>Rajeshwari Gajendran: portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230d1b2a'/><text y='68' x='50' text-anchor='middle' font-size='48' font-family='Georgia,serif' font-weight='bold' fill='%23e8895a'>RG</text></svg>"/>
+</head>
+<body>
+
+  <!-- HAMBURGER (mobile) -->
+  <button class="hamburger" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <a href="#hero" class="sidebar-logo">Rajeshwari <span>Gajendran</span></a>
+
+    <nav class="sidebar-nav">
+      <a href="#about"    class="nav-link">ABOUT</a>
+      <a href="#certifications"  class="nav-link">CERTIFICATIONS</a>
+      <a href="#projects" class="nav-link">PROJECTS</a>
+      <a href="#skills"   class="nav-link">SKILLS</a>
+      <a href="#contact"  class="nav-link">CONTACT</a>
+    </nav>
+
+    <div class="theme-switcher">
+      <div class="theme-label">Color scheme</div>
+      <div class="theme-dots">
+        <div class="theme-dot active" data-t="dark"  title="Dark"></div>
+        <div class="theme-dot"        data-t="light" title="Light"></div>
+        <div class="theme-dot"        data-t="green" title="Green"></div>
+        <div class="theme-dot"        data-t="pink"  title="Pink"></div>
+        <div class="theme-dot"        data-t="neon"  title="Neon"></div>
+      </div>
+    </div>
+
+    <div class="sidebar-socials">
+      <a href="https://github.com/Rajeshwari2805" target="_blank">
+        <span class="icon">⌥</span> GitHub
+      </a>
+      <a href="https://linkedin.com/in/rajeshwari-g-2802r" target="_blank">
+        <span class="icon">◈</span> LinkedIn
+      </a>
+      <a href="mailto:ramyagajendran945@gmail.com">
+        <span class="icon">✉</span> Email
+      </a>
+    </div>
+  </aside>
+
+  <!-- PAGE WRAPPER (everything right of sidebar) -->
+  <div class="page-wrapper">
+
+    <main>
+
+      <!-- HERO -->
+      <section id="hero">
+        <p class="hero-eyebrow">Full Stack Developer</p>
+        <h1 class="hero-name">Rajeshwari Gajendran</h1>
+        <p class="hero-title">I build websites that work - front to back.</p>
+        <p class="hero-desc">
+          I'm a full stack developer focused on building reliable, scalable web applications.
+          From REST APIs and databases to clean, accessible interfaces - I care about the whole product.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact"  class="btn btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-scroll">
+          <a href = "#about" style="color:inherit; text-decoration:none;">↓ scroll</a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <p class="section-tag">about</p>
+        <h2>Hello, I'm Rajeshwari Gajendran 👋</h2>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>
+              I'm a full stack developer who loves building things that live on the internet.
+              I work across the entire stack - designing <a href="#projects">systems and APIs</a>,
+              writing clean backend logic and crafting responsive, accessible frontends.
+            </p>
+            <p>
+              I believe great software is as much about the experience as the functionality.
+              I care deeply about performance, maintainability and writing code that other developers
+              actually enjoy working with.
+            </p>
+            <p>
+              When I'm not shipping features, I'm exploring new tools, contributing to open source,
+              or levelling up on system design.
+            </p>
+            <br/>
+            <a href="#contact" class="btn btn-ghost" style="display:inline-block;">Download Resume ↗</a>
+          </div>
+          <div class="about-meta">
+            <div class="meta-item">
+              <div class="meta-label">Role</div>
+              <div class="meta-value">Full Stack Developer</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Speciality</div>
+              <div class="meta-value">Web Apps &amp; APIs</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Location</div>
+              <div class="meta-value">Chennai, India</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Experience</div>
+              <div class="meta-value">Fresher</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Status</div>
+              <div class="meta-value" style="color:var(--accent)">Open to opportunities</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- CERTIFICATIONS -->
+        <section id="certifications">
+               <p class="section-tag">certifications</p>
+              <h2>Certifications 📜</h2>
+              <div class="cert-grid reveal">
+
+    <div class="cert-card">
+      <div class="cert-issuer">Internshala Trainings</div>
+      <div class="cert-name">Web Development Training</div>
+      <p class="cert-desc">8-week online training covering HTML, CSS, Bootstrap, DBMS, PHP, JavaScript, React, and AI in Web Development.</p>
+      <div class="cert-meta">
+        <span class="tag">Oct 2024</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">React</span>
+        <span class="tag">PHP</span>
+      </div>
+    </div>
+
+    <div class="cert-card">
+          <div class="cert-issuer">EduSkills × AICTE</div>
+          <div class="cert-name">Web Full Stack Developer Virtual Internship</div>
+          <p class="cert-desc">10-week virtual internship completing Web Full Stack Development. Supported by National Internship Portal, Ministry of Education and AICTE.</p>
+          <div class="cert-meta">
+            <span class="tag">Jan–Mar 2025</span>
+            <span class="tag">Full Stack</span>
+            <span class="tag">10 Weeks</span>
+            <span class="tag">AICTE</span>
+          </div>
+        </div>
+
+    <div class="cert-card">
+      <div class="cert-issuer">Deloitte Australia × Forage</div>
+      <div class="cert-name">Technology Job Simulation</div>
+      <p class="cert-desc">Completed practical tasks in Coding and Development as part of Deloitte Australia's Technology Job Simulation program.</p>
+      <div class="cert-meta">
+        <span class="tag">Mar 2026</span>
+        <span class="tag">Coding</span>
+        <span class="tag">Development</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+      <!-- PROJECTS -->
+      <section id="projects">
+        <p class="section-tag">projects</p>
+        <h2>Featured Projects 🚀</h2>
+        <div class="projects-list">
+
+          <a href=" https://rajeshwari2805.github.io/weather-app/" target="_blank" class="project-card reveal">
+            <div class="project-num">01</div>
+            <div class="project-body">
+              <div class="project-name">Weather App</div>
+              <p class="project-desc"> A real-time weather application that fetches live weather data using a public API. Displays temperature, humidity, wind speed and weather conditions for any city.</p>
+              <div class="tag-list">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">API Integration</span>
+              </div>
+            </div>
+            <div class="project-arrow">→</div>
+          </a>
+
+          <a href="https://rajeshwari2805.github.io/login-register/" target="_blank" class="project-card reveal">
+          <div class="project-num">02</div>
+            <div class="project-body">
+              <div class="project-name">Login & register UI</div>
+              <p class="project-desc">A beautiful and responsive login and registration interface with form validation, smooth transitions and a clean modern design.</p>
+              <div class="tag-list">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+            </div>
+            <div class="project-arrow">→</div>
+          </a>
+
+          <a href="https://rajeshwari2805.github.io/my-blog/" target="_blank" class="project-card reveal">
+            <div class="project-num">03</div>
+            <div class="project-body">
+              <div class="project-name">Blog Website</div>
+              <p class="project-desc">A fully responsive blog website with navigation, category filters and articles. Features a clean reading layout with smooth browsing experience.</p>
+              <div class="tag-list">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Navigation</span>
+              </div>
+            </div>
+            <div class="project-arrow">→</div>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <p class="section-tag"> skills</p>
+        <h2>What I Work With 🛠</h2>
+        <div class="skills-grid reveal">
+          <div class="skill-group">
+            <div class="skill-group-title">Frontend</div>
+            <div class="skill-items">
+              <div class="skill-item">React / Next.js</div>
+              <div class="skill-item">HTML &amp; CSS</div>
+              <div class="skill-item">JavaScript / TypeScript</div>
+              <div class="skill-item">Tailwind CSS</div>
+              <div class="skill-item">Vue.js</div>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-title">Backend</div>
+            <div class="skill-items">
+              <div class="skill-item">Node.js / Express</div>
+              <div class="skill-item">Python / FastAPI</div>
+              <div class="skill-item">REST &amp; GraphQL</div>
+              <div class="skill-item">Authentication / Auth</div>
+              <div class="skill-item">Microservices</div>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-title">Database</div>
+            <div class="skill-items">
+              <div class="skill-item">PostgreSQL</div>
+              <div class="skill-item">MongoDB</div>
+              <div class="skill-item">Redis</div>
+              <div class="skill-item">MySQL</div>
+              <div class="skill-item">Prisma ORM</div>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-title">DevOps &amp; Tools</div>
+            <div class="skill-items">
+              <div class="skill-item">Git &amp; GitHub</div>
+              <div class="skill-item">Docker</div>
+              <div class="skill-item">AWS / Vercel</div>
+              <div class="skill-item">CI/CD Pipelines</div>
+              <div class="skill-item">Linux / Bash</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <p class="section-tag">contact</p>
+        <h2>Let's Work Together 📬</h2>
+        <div class="contact-grid reveal">
+          <div>
+            <p class="contact-intro">
+              <strong>Have a project in mind?</strong> 
+              I'm always open to discussing new opportunities,
+              collaborations or just talking tech.
+            </p>
+            <div class="contact-links-list">
+              <a href="mailto:ramyagajendran945@gmail.com" class="contact-link">
+                ramyagajendran945@gmail.com
+                <span class="contact-link-label">Email ↗</span>
+              </a>
+              <a href="https://www.linkedin.com/in/rajeshwari-g-2802r" class="contact-link" target="_blank">
+              linkedin.com/in/rajeshwari-g-2802r
+                <span class="contact-link-label">LinkedIn ↗</span>
+              </a>
+              <a href="https://github.com/Rajeshwari2805" class="contact-link" target="_blank">
+              github.com/Rajeshwari2805
+                <span class="contact-link-label">GitHub ↗</span>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="your@email.com" />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea rows="4" placeholder="Tell me about your project..."></textarea>
+            </div>
+            <button class="btn" onclick="alert('Connect your form handler here!')">Send Message →</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <span>© 2026 Rajeshwari Gajendran — Full Stack Developer</span>
+      <span>designed &amp; built by <a href="#">Rajeshwari Gajendran</a> ♥</span>
+    </footer>
+
+  </div><!-- end page-wrapper -->
+
+  <script src="script.js"></script>
+</body>
+</html>
