@@ -189,7 +189,7 @@ main {
 
 /* ── HERO ── */
 #hero {
-  min-height: 30vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
