@@ -586,6 +586,16 @@ footer a { color: var(--accent); text-decoration: none; }
   .project-card { grid-template-columns: auto 1fr; }
   .project-arrow { display: none; }
   .hero-name { white-space: normal; }
+  
+  #hero {
+    min-height:auto;
+    padding: 2rem 0 4rem;
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+  .hero-scroll {
+    display: none;
+  }
 }
 
 .cert-grid {
