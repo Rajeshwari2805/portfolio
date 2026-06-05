@@ -588,13 +588,12 @@ footer a { color: var(--accent); text-decoration: none; }
   .hero-name { white-space: normal; }
   
   #hero {
-    min-height:auto;
-    padding: 2rem 0 4rem;
-    justify-content: flex-start;
-    padding-top: 3rem;
+    min-height:unset;
+    height: auto;
+    padding: 2rem 0;
   }
-  .hero-scroll {
-    display: none;
+  section {
+    padding: 3rem 0;
   }
 }
 
