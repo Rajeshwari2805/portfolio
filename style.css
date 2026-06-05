@@ -273,8 +273,8 @@ main {
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 
 .hero-scroll {
-  position: absolute;
-  bottom: 2rem; left: 0;
+  position: relative;
+  bottom: auto; left: 0;
   font-size: 11px;
   color: var(--muted);
   display: flex;
